@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="Style CSS/style.css">
+    <style>
+        * {
+            color: white;
+            font-family: verdana;
+        }
+        body{
+            background-color: rgb(26, 26, 26);
+            background-image: url(Images/Background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body></body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <li>About</li>
+                <li style="color: rgb(255, 160, 96);">Contact Us</li>
+                <li>Team</li>
+                <input class="Search" type="text" placeholder="Search...">
+
+                <button style="border-radius: 10px; padding: 5px 10px;
+                margin: 8px 0px; border: none;
+                background-color: rgb(255, 160, 96);
+                font-family: goergia; font-size: 18px;
+                box-shadow: 0px 0px 10px black;">
+                Serach</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="Me">
+                <div>
+                <img class="my-pic" src="Images/Biswanath.jpg" alt="">
+                </div>
+            </div>
+            <div class="myself">
+                <h1 style="color: rgb(255, 160, 96);
+                font-size: 50px; margin: 50px 20px 5px 10px;
+                text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+                font-weight: 100;">Biswanath Sarker</h1>
+                <hr style="height: 1px; border: none; 
+                background-color: rgb(255, 160, 96);">
+                <p style="margin: 0px 20px 5px; font-size: 18px; 
+                text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+                letter-spacing: 5px;">CEO & Front-End Developer</p>
+                <p style="margin-top: 100px; font-size: 24px; padding: 40px; 
+                background-color: rgba(0, 0, 0, 0.184);
+                border-radius: 20px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.34);">
+                    We create <span style="color: rgb(255, 160, 96);">modern & responsive</span> websites that help your brand 
+                    shine online. Click below to explore our features and recent 
+                    work. <br><br><br>
+                    <a class="click" href="https://github.com/BiswanathBD">Click Here</a> 
+                    to see our <span style="color: rgb(255, 160, 96);">Projects.</span>
+                </p>
+            </div>
+            <div class="form">
+                    <h2 style="color: rgb(255, 160, 96);
+                    text-shadow: 5px 5px 10px black;">Leave Your Feedback</h2>
+                <form>
+                    <label for="name">Full Name:</label>
+                    <input type="text" placeholder="Enter Your Name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"
+                    placeholder="Enter Your Email">
+
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+
+                    <label for="service">Overall Service:</label>
+                    <input type="range" name="range" id="service">
+
+                    <label for="comment">Give Feedback:</label>
+                    <textarea rows="4" name="comment" id="comment"></textarea>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
